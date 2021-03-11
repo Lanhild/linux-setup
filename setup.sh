@@ -107,35 +107,3 @@ main() {
 }
 
 main
-
-# Main wallpapers
-main() {
-	clear
-	cat <<- EOF
-		[*] Installing wallpapers...
-		
-		[*] Choose a style -
-		[1] Japanese
-		[2] Landscape
-		[3] HiRes
-	
-	EOF
-
-	read -p "[?] `users` Select an option : "
-
-	if [[ $REPLY == "1" ]]; then
-		STYLE='japanese'
-		install_japan
-	elif [[ $REPLY == "2" ]]; then
-		STYLE='landscape'
-		install_landscape
-    elif [[ $REPLY == "3" ]]; then
-        STYLE='hires'
-        install_hires
-	else
-		echo -e "\n[!] Invalid Option, Exiting the script...\n"
-		exit 1
-	fi
-}
-
-main
