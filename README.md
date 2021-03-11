@@ -12,15 +12,6 @@ Currently, it only supports:
 > 
 > XFCE
 
-## Other uses
-
-This repository also contains a wallpapers collection. This means that the script is also capable of automatically adding wallpapers to the DE.
-
----
-
-You can choose to wether install these wallpapers or not, and you can also use the wallpapers script to install whatever wallpapers you add to it, atleast as it is in the appropriate path.
-
-
 
 # Variables
 
